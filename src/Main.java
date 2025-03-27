@@ -6,6 +6,7 @@ import java.awt.*;
 
 public class Main {
     public static void main(String[] args) {
+        // question a
         Shape myShape = new Shape();
         GeometricShape myGeometricShape = new GeometricShape(myShape);
 
@@ -19,5 +20,8 @@ public class Main {
         //2nd app
         System.out.println("Lower right corner x:"+myGeometricShape.getXLowerRightCorner()+
                 " y:"+myGeometricShape.getYLowerRightCorner());
+
+        // question b
+
     }
 }
