@@ -7,9 +7,9 @@ public class GeometricShape {
     this.drawnShape = shape;
     }
     public int getXLowerRightCorner(){
-        return drawnShape.getXLowerRightCorner();
+        return drawnShape.getWidth();
     }
     public int getYLowerRightCorner(){
-        return drawnShape.getYLowerRightCorner();
+        return drawnShape.getHeight();
     }
 }

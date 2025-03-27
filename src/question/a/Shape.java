@@ -19,12 +19,12 @@ public class Shape extends JComponent {
         Graphics2D g2= (Graphics2D) g;
         g2.draw(rect);
     }
-    public int getXLowerRightCorner() {
-        return xUpperLeftCorner + width;//not width
+    public int getWidth() {
+        return width;
     }
 
-    public int getYLowerRightCorner() {
-        return yUpperLeftCorner + height;//similarly
+    public int getHeight() {
+        return  height;
     }
 
 }

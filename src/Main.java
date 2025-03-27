@@ -8,6 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Shape myShape = new Shape();
         GeometricShape myGeometricShape = new GeometricShape(myShape);
+
         JFrame f = new JFrame();
         f.setSize(600, 600);
         f.setContentPane(myShape);
