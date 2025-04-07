@@ -13,3 +13,6 @@ public class GeometricShape {
         return drawnShape.getHeight();
     }
 }
+//1 field, 4 methods
+//method uses of field: 3
+//LCOM= 1-(3/3*1)=0

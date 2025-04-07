@@ -13,7 +13,12 @@ public class ModemImplementation implements DataChannel, Connection{
         System.out.println("Calling phone number:"+phoneNumber+" from "+myPhoneNum);
     }
     public void hangup(){
-        System.out.println("Hanging up");
+        System.out.println("Hanging up call from "+myPhoneNum);
     }
-
+    public ModemImplementation(String phoneNum){
+        myPhoneNum = phoneNum;
+    }
 }
+// 1 field, 5 methods,
+// field uses:5
+// LCOM= 1 - 5/5 =0
